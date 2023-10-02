@@ -1,0 +1,60 @@
+
+void main() {
+//   var mobil1 = Mobil('Toyota','Carry',2022);
+//   var mobil2 = Mobil('Honda','Civic',2021);
+  
+//   mobil1.infoMobil();
+//   mobil2.infoMobil();
+  
+//   var mobil1 = Mobil("Honda", 2022, 2);
+//   mobil1.infoKendaraan();
+//   mobil1.infoMobil();
+//   var mobil2 = Mobil("Honda", 2022, 3); 
+  
+}
+
+// class Mobil {
+//   String merk; //property
+//   String model;
+//   int tahunProduksi;
+  
+//   //contructor
+//   Mobil(this.merk, this.model, this.tahunProduksi);
+  
+//   //method
+//   void infoMobil(){
+//     print('$merk $model, Tahun: $tahunProduksi');
+//   }
+// }
+
+// class Kendaraan {
+//   String merek;
+//   int tahunProduksi;
+  
+//   Kendaraan(this.merek, this.tahunProduksi);
+//   void infoKendaraan(){
+//     print('Merk $merek, Tahun: $tahunProduksi');
+//   }
+// }
+
+// class Mobil extends Kendaraan{
+//   int jumlahPintu;
+  
+//   //constructor
+//   Mobil(String merek, int tahunProduksi, this.jumlahPintu)
+//     : super(merek, tahunProduksi);
+  
+//   //Method
+//   void infoMobil(){
+//     print('Mobil $merek, Tahun: $tahunProduksi, Pintu: $jumlahPintu');
+//   }
+
+class Mahasiswa {
+  //variabel privat
+  String _nama;
+  int _umur;
+  
+  Mahasiswa(this._nama,  this._umur);
+}
+
+}

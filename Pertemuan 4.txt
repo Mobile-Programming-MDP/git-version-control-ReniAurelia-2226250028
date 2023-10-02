@@ -1,0 +1,14 @@
+void main() async {
+  try{
+    print('Fetching Username...');
+    var username = await fetchUsername();
+    print ('You are logged in us $username');
+    print ('welcome');
+  } catch(e){
+    print(e);
+  }
+}
+
+Future<String> fetchUsernam(){
+  return Future.delayed(Duration(seconds:3), () => 'DartUser');
+}
